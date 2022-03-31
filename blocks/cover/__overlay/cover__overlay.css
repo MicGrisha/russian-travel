@@ -1,0 +1,12 @@
+.cover__overlay {
+  width: 1184px;
+  height: 740px;
+  background: url(/image/overlaybackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
