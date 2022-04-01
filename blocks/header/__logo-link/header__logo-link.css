@@ -1,19 +1,26 @@
 .header__logo-link {
-  width: 30px;
-  height: 28px;
+  max-width: 30px;
+  min-width: 22px;
   font-style: normal;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 28px;
+  font-weight: 400;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: normal;
   margin: 18px 18px 6px 0px;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; 
 }
 
 .header__logo-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .header__logo-link:last-child {
-    margin-right: 0px;
+  margin-right: 0px;
 }

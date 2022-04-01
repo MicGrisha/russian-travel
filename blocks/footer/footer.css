@@ -1,10 +1,8 @@
 .footer {
-  max-width: 1184px;
+  min-width: 1184px;
   display: flex;
   flex-direction: row;
-  position: relative;
-  left: 48px;
-  bottom: 24px;
   margin: 0px;
-  border: 1px solid red;
+  margin-left: 48px;
+  margin-bottom: 24px;
 }

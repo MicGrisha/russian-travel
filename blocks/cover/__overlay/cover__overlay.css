@@ -1,6 +1,6 @@
 .cover__overlay {
-  width: 1184px;
-  height: 740px;
+  max-width: 1184px;
+  min-height: 740px;
   background: url(/image/overlaybackground.png);
   background-repeat: no-repeat;
   background-size: cover;

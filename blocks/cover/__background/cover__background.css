@@ -1,8 +1,6 @@
 .cover__background {
-  width: 1184px;
-  height: 740px;
+  max-width: 1184px;
   background: url(/image/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid red;
 }
