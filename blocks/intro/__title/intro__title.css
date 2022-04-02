@@ -1,11 +1,17 @@
 .intro__title {
-  width: 690px;
-  height: 58px;
+  width: 100%;
+  height: auto;
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
-  line-height: 58px;
+  line-height: 1.1;
   align-items: flex-start;
-  margin: 0px 0px 40px;
+  margin: 0px 0px 8%;
   color: #FFFFFF;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; 
 }

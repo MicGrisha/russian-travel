@@ -1,7 +1,10 @@
 .intro {
-  width: 690px;
-  height: 429px;
+  width: 50%;
+  height: auto;
   display: flex;
   flex-direction: column;
-  margin: 0px 442px 0px 148px;
+  align-self: flex-start;
+  justify-self: flex-start;
+  margin: 0px;
+  margin-left: 10%;
 }

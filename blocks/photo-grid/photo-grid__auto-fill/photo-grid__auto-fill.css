@@ -1,0 +1,6 @@
+.photo-grid__auto-fill {
+  grid-template-columns: repeat(auto-fil, minmax(288px, 1fr)); 
+  gap: 16px; 
+}
+
+
