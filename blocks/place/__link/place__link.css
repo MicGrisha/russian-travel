@@ -27,8 +27,6 @@
   .place__link {
     width: 90%;
     position: relative;
-    margin-left: 16px;
-    margin-right: 16px;
     margin-top: 12px;
   }
 }

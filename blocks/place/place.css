@@ -11,7 +11,5 @@
 @media screen and (max-width: 320px) {
   .place {
     width: 100%;
-    flex-wrap: nowrap;
-    justify-content: center;
   }
 }
