@@ -4,4 +4,4 @@
 1. Флекс-бокс верстка
 2. Сайт адоптирован под разрешения: 320, 768, 1024, 1280 px
 3. Использовался grid 
-[Ссылка на проект] (https://micgrisha.github.io/russian-travel/index.html "Путешествие по России")
+4. [Ссылка на проект] (https://micgrisha.github.io/russian-travel/index.html)
