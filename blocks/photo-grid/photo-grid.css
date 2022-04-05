@@ -1,9 +1,13 @@
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(288px, 1fr));
-  grid-template-rows: repeat(3, minmax(216px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
   gap: 16px;
+  width: 90%;
   margin: 92px 0px 0px;
-  justify-content: center;
-  align-content: center;
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+  margin-right: 16px;
+  }
 }

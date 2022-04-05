@@ -1,12 +1,34 @@
 .place__link {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    text-decoration-line: underline;
-    color: #FFFFFF;
-    margin: 0px;
-    position: absolute;
-    left: 0px;
-    top: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  text-decoration-line: underline;
+  color: #ffffff;
+  margin: 0px;
+  padding-left: 5%;
+  position: absolute;
+  left: 0px;
+  top: 24px;
+  text-decoration: none;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.place__link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 320px) {
+  .place__link {
+    width: 90%;
+    position: relative;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 12px;
+  }
 }

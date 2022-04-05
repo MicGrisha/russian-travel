@@ -1,12 +1,11 @@
 .cover__overlay {
-  max-width: 1184px;
-  min-height: 740px;
-  background: url(/image/overlaybackground.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 3;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+   
+  }
 }

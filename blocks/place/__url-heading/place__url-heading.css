@@ -2,10 +2,26 @@
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 12px;
+  line-height: 1;
   color: #aaaaaa;
   margin: 0px;
   padding: 0px;
+  padding-left: 5%;
   position: absolute;
   left: 0px;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; 
+}
+
+@media screen and (max-width: 320px) {
+  .place__url-heading {
+    width: 90%;
+    position: relative;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
 }
