@@ -1,8 +1,8 @@
-.title_link {
+.cover__link {
     text-decoration: none;
     color: #ffffff;
 }
 
-.title_link:hover {
+.cover__link:hover {
     text-decoration: underline;
   }
