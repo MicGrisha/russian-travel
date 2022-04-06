@@ -2,15 +2,9 @@
   width: 100%;
   height: 46px;
   margin: 7% 0px 0px;
-  margin-left: 5%;
+  margin-left: 10%;
+  padding: 0px;
   list-style: none;
   position: relative;
   align-self: flex-end;
-}
-
-@media screen and (max-width: 1024px) {
-  .place__website {
-    margin-left: 10%;
-    padding: 0px;
-  }
 }
