@@ -3,9 +3,3 @@
   position: absolute;
   z-index: 2;
 }
-
-@media screen and (max-width: 320px) {
-  .cover__overlay {
-   
-  }
-}

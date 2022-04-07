@@ -1,5 +1,5 @@
 .intro {
-  width: 50%;
+  width: 60%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -9,9 +9,9 @@
   margin-left: 5%;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
   .intro {
-    width: 90%;
+    width: 70%;
   }
 }
 
@@ -19,5 +19,11 @@
   .intro {
     width: 90%;
     margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    width: 90%;
   }
 }

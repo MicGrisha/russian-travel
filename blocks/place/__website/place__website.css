@@ -8,3 +8,28 @@
   position: relative;
   align-self: flex-end;
 }
+
+@media screen and (max-width: 1280px) {
+  .place__website {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .place__website {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    margin-left: 5%;
+    margin-top: 0%;
+  }
+}

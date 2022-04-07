@@ -4,9 +4,10 @@
   flex-wrap: wrap;
   align-content: center;
   justify-content: flex-start;
-  width: 50%;
+  width: 100%;
   box-sizing: border-box;
   margin: 0px;
+  padding: 0px;
 }
 @media screen and (max-width: 320px) {
   .place {

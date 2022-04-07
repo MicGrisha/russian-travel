@@ -1,10 +1,11 @@
 .place__title {
-  width: 45%;
+  width: 70%;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 1.1;
   margin: 0px;
+  padding: 0px;
   color: #FFFFFF;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -14,24 +15,17 @@
   -webkit-font-smoothing: antialiased; 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .place__title {
     width: 100%;
-    font-size: 32px;
-    margin-left: 16px;
-    margin-right: 16px;
+    font-size: 42px;
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   .place__title {
     width: 90%;
-    font-size: 42px;
-  }
-}
-@media screen and (max-width: 788px) {
-  .place__title {
-    width: 90%;
-    font-size: 42px;
+    font-size: 32px;
+    margin-left: 5%;
   }
 }
