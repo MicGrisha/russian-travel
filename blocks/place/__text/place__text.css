@@ -1,0 +1,7 @@
+.place__text {
+  width: 90%;
+  margin: 5% 0px 0px;
+  padding: 0px;
+  list-style: none;
+  justify-self: start;
+}

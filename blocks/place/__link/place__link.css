@@ -3,13 +3,8 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.2;
-  text-decoration-line: underline;
   color: #ffffff;
   margin: 0px;
-  padding-left: 5%;
-  position: absolute;
-  left: 0px;
-  top: 24px;
   text-decoration: none;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -23,9 +18,3 @@
   text-decoration: underline;
 }
 
-@media screen and (max-width: 320px) {
-  .place__link {
-    width: 100%;
-    top: -360px;
-  }
-}

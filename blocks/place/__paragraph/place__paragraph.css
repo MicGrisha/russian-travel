@@ -1,37 +1,28 @@
 .place__paragraph {
-  width: 80%;
+  width: 90%;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.6;
-  margin: 0px;
-  padding-left: 10%;
-  margin-top: 7%;
-  color: #FFFFFF;
+  list-style: none;
+  color: #ffffff;
+  align-self: start;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased; 
+  -webkit-font-smoothing: antialiased;
 }
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
-    width: 90%;
     font-size: 16px;
-    padding-left: 15%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__paragraph {
-    font-size: 16px;
-    width: 90%;
-    padding-left: 7%;
-    margin-top: 0%;
+    margin-left: 10%;
   }
 }
-
-
-

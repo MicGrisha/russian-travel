@@ -1,0 +1,13 @@
+.footer__line {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 0px;
+}
+
+@media screen and (max-width: 320px) {
+    .footer__line {
+      flex-direction: column;
+      margin-top: 0px;
+    }
+  }

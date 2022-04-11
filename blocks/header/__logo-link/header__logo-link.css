@@ -16,10 +16,10 @@
   -webkit-font-smoothing: antialiased; 
 }
 
-.header__logo-link:hover {
-  text-decoration: underline;
-}
-
 .header__logo-link:last-child {
   margin-right: 0px;
+}
+
+.header__logo-link:hover {
+  text-decoration: underline;
 }

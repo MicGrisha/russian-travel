@@ -2,17 +2,10 @@
   width: 90%;
   margin: 5% 0px 0px;
   padding: 0px;
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  justify-content: center;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .places {
     width: 100%;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
   }
 }
