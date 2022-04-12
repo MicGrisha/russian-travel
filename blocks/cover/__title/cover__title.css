@@ -13,21 +13,21 @@
   left: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1152px) {
   .cover__title {
     width: 55%;
     top: 30%;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 896px) {
   .cover__title {
     width: 80%;
     top: 20%;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 688px) {
   .cover__title {
     font-size: 32px;
     width: 80%;

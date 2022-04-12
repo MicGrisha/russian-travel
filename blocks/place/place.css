@@ -9,7 +9,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
   .place {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   }

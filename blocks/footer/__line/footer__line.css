@@ -5,7 +5,7 @@
   margin: 0px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 688px) {
     .footer__line {
       flex-direction: column;
       margin-top: 0px;

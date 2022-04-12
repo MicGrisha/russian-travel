@@ -1,20 +1,21 @@
 .footer__copyright {
+  list-style: none;
+  margin: 0px;
+  margin-left: auto;
   width: 186px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
-  justify-self: end;
   text-align: right;
   color: #ffffff;
-  margin-left: auto;
+  justify-self: start;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and ((max-width: 688px)) {
   .footer__copyright {
-    align-self: start;
     margin: 0px;
-    margin-bottom: 24px;
+    padding: 0px;
     text-align: left;
   }
 }

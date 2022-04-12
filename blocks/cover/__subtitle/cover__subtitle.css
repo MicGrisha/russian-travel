@@ -13,28 +13,28 @@
   left: center;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1350px) {
   .cover__subtitle {
     width: 32%;
     bottom: 32%;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1152px) {
   .cover__subtitle {
     width: 35%;
     bottom: 30%;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 896px) {
   .cover__subtitle {
     width: 55%;
     bottom: 23%;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 688px) {
   .cover__subtitle {
     font-size: 14px;
     width: 85%;

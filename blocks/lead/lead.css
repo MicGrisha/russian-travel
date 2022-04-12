@@ -6,7 +6,13 @@
   margin-bottom: 8%;
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 768px) {
+  .lead {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
   .lead {
     width: 100%;
   }
